@@ -5,7 +5,9 @@
 
 **Futbolpedia** is a comprehensive, Wikipedia-style football encyclopedia. It provides dynamic, real-time data about football teams, players, leagues, and the beautiful game's rich history. Built with a modern, clean interface, it offers fans a deep dive into the world of football.
 
-![Futbolpedia Screenshot](frontend/assets/screenshot.png)
+<p align="center">
+<img src="frontend/assets/screenshot.png" alt="Futbolpedia Screenshot" width="" height="1250">
+</p>
 
 ## ✨ Features
 
@@ -69,10 +71,4 @@ futbolpedia/
 └── README.md           # You are here!
 ```
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-*Made with ❤️ for football fans around the world.*
