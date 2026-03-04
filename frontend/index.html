@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futbolpedia — The Free Football Encyclopedia</title>
+    <meta
+      name="description"
+      content="Futbolpedia is the free football encyclopedia covering teams, players, leagues, and the beautiful game's rich history."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>"
+    />
+  </head>
+  <body data-page="home">
+    <!-- ====== HEADER ====== -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">⚽ <span>Futbolpedia</span></a>
+        <div class="search-container" id="search-container">
+          <input
+            type="text"
+            id="global-search"
+            placeholder="Search teams, players…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <div class="search-dropdown" id="search-results"></div>
+        </div>
+        <nav class="header-nav" id="header-nav">
+          <a href="index.html">Home</a>
+          <a href="league.html?id=4328">Premier League</a>
+          <a href="league.html?id=4335">La Liga</a>
+          <a href="league.html?id=4332">Serie A</a>
+        </nav>
+        <button
+          class="mobile-menu-btn"
+          id="mobile-menu-btn"
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <!-- ====== PAGE WRAPPER ====== -->
+    <div class="page-wrapper">
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-section">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Popular Leagues</h3>
+          <ul id="sidebar-leagues">
+            <li>
+              <a href="league.html?id=4328">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English Premier League</a>
+            </li>
+            <li><a href="league.html?id=4335">🇪🇸 Spanish La Liga</a></li>
+            <li><a href="league.html?id=4332">🇮🇹 Italian Serie A</a></li>
+            <li><a href="league.html?id=4331">🇩🇪 German Bundesliga</a></li>
+            <li><a href="league.html?id=4334">🇫🇷 French Ligue 1</a></li>
+            <li><a href="league.html?id=4337">🇳🇱 Dutch Eredivisie</a></li>
+            <li>
+              <a href="league.html?id=4344">🇵🇹 Portuguese Primeira Liga</a>
+            </li>
+            <li><a href="league.html?id=4346">🇺🇸 Major League Soccer</a></li>
+            <li><a href="league.html?id=4480">🌍 UEFA Champions League</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Football History</h3>
+          <ul>
+            <li><a href="index.html#legendary-players">🌟 Legendary Players</a></li>
+            <li><a href="index.html#top-scorers">⚽ All-Time Top Scorers</a></li>
+            <li><a href="index.html#world-cup">🏆 World Cup Winners</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content" id="main-content">
+        <!-- Hero / Welcome -->
+        <section class="hero-section">
+          <h1>Welcome to <em>Futbolpedia</em></h1>
+          <p class="hero-subtitle">
+            The free encyclopedia of world football — covering teams, players,
+            leagues, and the beautiful game's rich history.
+          </p>
+          <div class="hero-search">
+            <input
+              type="text"
+              id="hero-search-input"
+              placeholder="Search for a team or player…"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <button id="hero-search-btn" class="btn btn-primary">Search</button>
+            <div class="search-dropdown" id="hero-search-results"></div>
+          </div>
+          <p class="hero-stat" id="hero-stat">Loading statistics…</p>
+        </section>
+
+        <!-- Popular Leagues -->
+        <section class="content-section">
+          <h2 class="section-heading">Popular Leagues</h2>
+          <div class="card-grid" id="popular-leagues-grid">
+            <!-- Populated by JS -->
+          </div>
+        </section>
+
+        <!-- Featured Teams -->
+        <section class="content-section">
+          <h2 class="section-heading">Featured Teams</h2>
+          <div class="card-grid card-grid-small" id="featured-teams-grid">
+            <!-- Populated by JS -->
+          </div>
+        </section>
+
+        <!-- Legendary Players -->
+        <section class="content-section" id="legendary-players">
+          <h2 class="section-heading">Legendary Players</h2>
+          <div class="history-grid" id="legendary-players-grid">
+            <!-- Populated by JS -->
+          </div>
+        </section>
+
+        <!-- All-Time Top Scorers -->
+        <section class="content-section" id="top-scorers">
+          <h2 class="section-heading">All-Time Top Scorers</h2>
+          <div class="table-wrapper">
+            <table class="wiki-table" id="top-scorers-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Player</th>
+                  <th>Nationality</th>
+                  <th>Goals</th>
+                  <th>Period</th>
+                </tr>
+              </thead>
+              <tbody id="top-scorers-body">
+                <!-- Populated by JS -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- World Cup Winners -->
+        <section class="content-section" id="world-cup">
+          <h2 class="section-heading">FIFA World Cup Winners</h2>
+          <div class="table-wrapper">
+            <table class="wiki-table" id="world-cup-table">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Host</th>
+                  <th>Winner</th>
+                  <th>Runner-Up</th>
+                  <th>Final Score</th>
+                </tr>
+              </thead>
+              <tbody id="world-cup-body">
+                <!-- Populated by JS -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- World Cup Total Wins -->
+        <section class="content-section">
+          <h2 class="section-heading">World Cup Wins by Country</h2>
+          <div class="table-wrapper">
+            <table class="wiki-table" id="wc-wins-table">
+              <thead>
+                <tr>
+                  <th>Country</th>
+                  <th>Wins</th>
+                  <th>Years</th>
+                </tr>
+              </thead>
+              <tbody id="wc-wins-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>⚽ <strong>Futbolpedia</strong> — The Free Football Encyclopedia</p>
+        <p>
+          Live data provided by
+          <a href="https://www.thesportsdb.com" target="_blank" rel="noopener"
+            >TheSportsDB</a
+          >. Historical data curated by Futbolpedia editors.
+        </p>
+        <p class="footer-copy">
+          &copy; 2026 Futbolpedia. This is an open educational project.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Loading overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+      <div class="spinner"></div>
+      <p>Loading…</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

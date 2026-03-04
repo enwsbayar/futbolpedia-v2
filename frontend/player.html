@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Player — Futbolpedia</title>
+  <meta name="description" content="Player profile on Futbolpedia — The Free Football Encyclopedia." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" />
+</head>
+
+<body data-page="player">
+  <!-- ====== HEADER ====== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">⚽ <span>Futbolpedia</span></a>
+      <div class="search-container" id="search-container">
+        <input type="text" id="global-search" placeholder="Search teams, players…" autocomplete="off"
+          spellcheck="false" />
+        <div class="search-dropdown" id="search-results"></div>
+      </div>
+      <nav class="header-nav" id="header-nav">
+        <a href="index.html">Home</a>
+        <a href="league.html?id=4328">Premier League</a>
+        <a href="league.html?id=4335">La Liga</a>
+        <a href="league.html?id=4332">Serie A</a>
+      </nav>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- ====== PAGE WRAPPER ====== -->
+  <div class="page-wrapper">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>On This Page</h3>
+        <ul id="sidebar-toc">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#biography">Biography</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>Popular Leagues</h3>
+        <ul>
+          <li>
+            <a href="league.html?id=4328">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English Premier League</a>
+          </li>
+          <li><a href="league.html?id=4335">🇪🇸 Spanish La Liga</a></li>
+          <li><a href="league.html?id=4332">🇮🇹 Italian Serie A</a></li>
+          <li><a href="league.html?id=4331">🇩🇪 German Bundesliga</a></li>
+          <li><a href="league.html?id=4334">🇫🇷 French Ligue 1</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content" id="main-content">
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" id="breadcrumb">
+        <a href="index.html">Home</a> &rsaquo; <span>Player</span>
+      </nav>
+
+      <!-- Player content built by JS -->
+      <div id="player-container">
+        <!-- Populated by script.js -->
+      </div>
+    </main>
+  </div>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>⚽ <strong>Futbolpedia</strong> — The Free Football Encyclopedia</p>
+      <p>
+        Live data provided by
+        <a href="https://www.thesportsdb.com" target="_blank" rel="noopener">TheSportsDB</a>.
+      </p>
+      <p class="footer-copy">&copy; 2026 Futbolpedia.</p>
+    </div>
+  </footer>
+
+  <!-- Loading overlay -->
+  <div class="loading-overlay" id="loading-overlay">
+    <div class="spinner"></div>
+    <p>Loading…</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

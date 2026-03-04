@@ -1,0 +1,760 @@
+{
+  "legendaryPlayers": [
+    {
+      "name": "Pelé",
+      "fullName": "Edson Arantes do Nascimento",
+      "nationality": "Brazilian",
+      "position": "Forward",
+      "birthDate": "1940-10-23",
+      "deathDate": "2022-12-29",
+      "career": "1956–1977",
+      "clubs": ["Santos FC", "New York Cosmos"],
+      "goals": 1281,
+      "internationalCaps": 92,
+      "internationalGoals": 77,
+      "achievements": [
+        "3× FIFA World Cup Winner (1958, 1962, 1970)",
+        "2× Copa Libertadores (1962, 1963)",
+        "6× Brazilian Serie A",
+        "FIFA Player of the Century"
+      ],
+      "description": "Widely regarded as one of the greatest footballers of all time, Pelé was a Brazilian forward whose career spanned over two decades. He remains the only player to win three FIFA World Cups as a player. His extraordinary dribbling, vision, and finishing made him a global icon of the sport."
+    },
+    {
+      "name": "Diego Maradona",
+      "fullName": "Diego Armando Maradona",
+      "nationality": "Argentine",
+      "position": "Attacking Midfielder / Forward",
+      "birthDate": "1960-10-30",
+      "deathDate": "2020-11-25",
+      "career": "1976–1997",
+      "clubs": [
+        "Argentinos Juniors",
+        "Boca Juniors",
+        "FC Barcelona",
+        "SSC Napoli",
+        "Sevilla FC",
+        "Newell's Old Boys"
+      ],
+      "goals": 345,
+      "internationalCaps": 91,
+      "internationalGoals": 34,
+      "achievements": [
+        "1× FIFA World Cup Winner (1986)",
+        "2× Serie A with Napoli (1987, 1990)",
+        "1× UEFA Cup (1989)",
+        "FIFA Player of the Century (shared)"
+      ],
+      "description": "Maradona is widely considered one of the greatest and most controversial football players in history. His 'Hand of God' goal and the 'Goal of the Century' against England in the 1986 World Cup quarter-final are among the most famous moments in football history. He almost single-handedly led Argentina to the 1986 World Cup title."
+    },
+    {
+      "name": "Johan Cruyff",
+      "fullName": "Hendrik Johannes Cruijff",
+      "nationality": "Dutch",
+      "position": "Forward",
+      "birthDate": "1947-04-25",
+      "deathDate": "2016-03-24",
+      "career": "1964–1984",
+      "clubs": [
+        "Ajax",
+        "FC Barcelona",
+        "Los Angeles Aztecs",
+        "Washington Diplomats",
+        "Levante",
+        "Feyenoord"
+      ],
+      "goals": 401,
+      "internationalCaps": 48,
+      "internationalGoals": 33,
+      "achievements": [
+        "3× European Cup with Ajax (1971, 1972, 1973)",
+        "9× Eredivisie",
+        "1× La Liga",
+        "3× Ballon d'Or (1971, 1973, 1974)"
+      ],
+      "description": "Johan Cruyff revolutionized football both as a player and a manager. He was the embodiment of Total Football, the tactical philosophy pioneered by Ajax and the Netherlands national team. His influence on FC Barcelona's playing philosophy continues to shape the club to this day through the concept of 'tiki-taka'."
+    },
+    {
+      "name": "Zinedine Zidane",
+      "fullName": "Zinedine Yazid Zidane",
+      "nationality": "French",
+      "position": "Attacking Midfielder",
+      "birthDate": "1972-06-23",
+      "career": "1988–2006",
+      "clubs": ["Cannes", "Bordeaux", "Juventus", "Real Madrid"],
+      "goals": 156,
+      "internationalCaps": 108,
+      "internationalGoals": 31,
+      "achievements": [
+        "1× FIFA World Cup (1998)",
+        "1× UEFA European Championship (2000)",
+        "1× UEFA Champions League (2002)",
+        "1× Ballon d'Or (1998)",
+        "3× FIFA World Player of the Year"
+      ],
+      "description": "Zidane is considered one of the greatest playmakers in football history. His elegant style, extraordinary technique, and ability to perform on the biggest stages made him a legend. His two-goal performance in the 1998 World Cup Final and his iconic volley in the 2002 Champions League Final are unforgettable moments."
+    },
+    {
+      "name": "Ronaldo Nazário",
+      "fullName": "Ronaldo Luís Nazário de Lima",
+      "nationality": "Brazilian",
+      "position": "Striker",
+      "birthDate": "1976-09-18",
+      "career": "1993–2011",
+      "clubs": [
+        "Cruzeiro",
+        "PSV",
+        "Barcelona",
+        "Inter Milan",
+        "Real Madrid",
+        "AC Milan",
+        "Corinthians"
+      ],
+      "goals": 414,
+      "internationalCaps": 98,
+      "internationalGoals": 62,
+      "achievements": [
+        "2× FIFA World Cup (1994, 2002)",
+        "2× Ballon d'Or (1997, 2002)",
+        "3× FIFA World Player of the Year",
+        "1× UEFA Cup (1998)"
+      ],
+      "description": "Known as 'O Fenômeno', Ronaldo is widely regarded as one of the greatest strikers of all time. Despite suffering two career-threatening knee injuries, he won two World Cups and two Ballon d'Or awards. His pace, power, and clinical finishing were unmatched during his prime."
+    },
+    {
+      "name": "Lionel Messi",
+      "fullName": "Lionel Andrés Messi",
+      "nationality": "Argentine",
+      "position": "Forward",
+      "birthDate": "1987-06-24",
+      "career": "2003–present",
+      "clubs": ["FC Barcelona", "Paris Saint-Germain", "Inter Miami CF"],
+      "goals": 850,
+      "internationalCaps": 187,
+      "internationalGoals": 109,
+      "achievements": [
+        "1× FIFA World Cup (2022)",
+        "1× Copa América (2021)",
+        "4× UEFA Champions League",
+        "8× Ballon d'Or",
+        "10× La Liga"
+      ],
+      "description": "Lionel Messi is widely considered one of the two greatest football players of all time. His extraordinary dribbling, vision, passing, and goal-scoring ability have earned him a record eight Ballon d'Or awards. His crowning achievement came in 2022 when he led Argentina to the FIFA World Cup title in Qatar, cementing his legacy."
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "fullName": "Cristiano Ronaldo dos Santos Aveiro",
+      "nationality": "Portuguese",
+      "position": "Forward",
+      "birthDate": "1985-02-05",
+      "career": "2002–present",
+      "clubs": [
+        "Sporting CP",
+        "Manchester United",
+        "Real Madrid",
+        "Juventus",
+        "Al Nassr"
+      ],
+      "goals": 900,
+      "internationalCaps": 214,
+      "internationalGoals": 133,
+      "achievements": [
+        "1× UEFA European Championship (2016)",
+        "5× UEFA Champions League",
+        "5× Ballon d'Or",
+        "7× League titles across England, Spain, and Italy"
+      ],
+      "description": "Cristiano Ronaldo is one of the greatest and most prolific goal-scorers in football history. His incredible athleticism, work ethic, and determination have led to success across multiple leagues. He holds the record for most international goals scored by a male player and is the all-time top scorer in UEFA Champions League history."
+    },
+    {
+      "name": "Franz Beckenbauer",
+      "fullName": "Franz Anton Beckenbauer",
+      "nationality": "German",
+      "position": "Sweeper / Central Defender",
+      "birthDate": "1945-09-11",
+      "deathDate": "2024-01-07",
+      "career": "1964–1983",
+      "clubs": ["Bayern Munich", "New York Cosmos", "Hamburger SV"],
+      "goals": 111,
+      "internationalCaps": 103,
+      "internationalGoals": 14,
+      "achievements": [
+        "1× FIFA World Cup as player (1974)",
+        "1× FIFA World Cup as manager (1990)",
+        "3× European Cup (1974, 1975, 1976)",
+        "2× Ballon d'Or (1972, 1976)"
+      ],
+      "description": "Known as 'Der Kaiser', Beckenbauer is widely regarded as the greatest defender in football history and the inventor of the modern sweeper role. He is one of only three men to have won the World Cup both as a player and as a manager. His elegance and leadership redefined what a defender could be."
+    },
+    {
+      "name": "Alfredo Di Stéfano",
+      "fullName": "Alfredo Stéfano Di Stéfano Laulhé",
+      "nationality": "Argentine / Spanish",
+      "position": "Forward",
+      "birthDate": "1926-07-04",
+      "deathDate": "2014-07-07",
+      "career": "1945–1966",
+      "clubs": ["River Plate", "Millonarios", "Real Madrid", "Espanyol"],
+      "goals": 510,
+      "internationalCaps": 31,
+      "internationalGoals": 23,
+      "achievements": [
+        "5× European Cup (1956–1960)",
+        "8× La Liga",
+        "2× Ballon d'Or (1957, 1959)"
+      ],
+      "description": "Di Stéfano is considered one of the greatest footballers of all time and was the driving force behind Real Madrid's domination of the early European Cup. He scored in five consecutive European Cup Finals and his all-round ability — tackling, creating, and scoring — made him the complete footballer."
+    },
+    {
+      "name": "Michel Platini",
+      "fullName": "Michel François Platini",
+      "nationality": "French",
+      "position": "Attacking Midfielder",
+      "birthDate": "1955-06-21",
+      "career": "1972–1987",
+      "clubs": ["AS Nancy", "AS Saint-Étienne", "Juventus"],
+      "goals": 353,
+      "internationalCaps": 72,
+      "internationalGoals": 41,
+      "achievements": [
+        "1× UEFA European Championship (1984)",
+        "1× European Cup (1985)",
+        "2× Serie A",
+        "3× Ballon d'Or (1983, 1984, 1985)"
+      ],
+      "description": "Michel Platini was one of the most gifted midfielders in football history. His three consecutive Ballon d'Or awards remain a remarkable feat. His nine goals at Euro 1984 — which France won on home soil — is a tournament record that stood for decades. He was a master of free kicks and had an extraordinary ability to arrive in the box at the perfect moment."
+    },
+    {
+      "name": "Eusébio",
+      "fullName": "Eusébio da Silva Ferreira",
+      "nationality": "Portuguese / Mozambican",
+      "position": "Forward",
+      "birthDate": "1942-01-25",
+      "deathDate": "2014-01-05",
+      "career": "1957–1979",
+      "clubs": [
+        "Sporting de Lourenço Marques",
+        "Benfica",
+        "Boston Minutemen",
+        "Toronto Metros-Croatia",
+        "Las Vegas Quicksilvers"
+      ],
+      "goals": 733,
+      "internationalCaps": 64,
+      "internationalGoals": 41,
+      "achievements": [
+        "1× European Cup (1962)",
+        "11× Primeira Liga",
+        "1× Ballon d'Or (1965)",
+        "1966 World Cup Golden Boot"
+      ],
+      "description": "Known as the 'Black Panther' or 'Black Pearl', Eusébio was the first truly great African-born football star. His electrifying speed and powerful shooting made him one of the most feared forwards of his generation. He was the top scorer at the 1966 World Cup and remains Benfica's all-time leading scorer."
+    },
+    {
+      "name": "Ronaldinho",
+      "fullName": "Ronaldo de Assis Moreira",
+      "nationality": "Brazilian",
+      "position": "Attacking Midfielder / Forward",
+      "birthDate": "1980-03-21",
+      "career": "1998–2015",
+      "clubs": [
+        "Grêmio",
+        "Paris Saint-Germain",
+        "FC Barcelona",
+        "AC Milan",
+        "Flamengo",
+        "Atlético Mineiro",
+        "Querétaro",
+        "Fluminense"
+      ],
+      "goals": 266,
+      "internationalCaps": 97,
+      "internationalGoals": 33,
+      "achievements": [
+        "1× FIFA World Cup (2002)",
+        "1× UEFA Champions League (2006)",
+        "2× FIFA World Player of the Year (2004, 2005)",
+        "1× Ballon d'Or (2005)"
+      ],
+      "description": "Ronaldinho is widely regarded as the most entertaining footballer of all time. His extraordinary skill, creativity, and joy of playing made him a global phenomenon. His performances at Barcelona between 2003 and 2006 are considered among the greatest individual displays in football history, and he was the catalyst for Barcelona's return to the European elite."
+    },
+    {
+      "name": "Thierry Henry",
+      "fullName": "Thierry Daniel Henry",
+      "nationality": "French",
+      "position": "Forward",
+      "birthDate": "1977-08-17",
+      "career": "1994–2014",
+      "clubs": [
+        "Monaco",
+        "Juventus",
+        "Arsenal",
+        "FC Barcelona",
+        "New York Red Bulls"
+      ],
+      "goals": 411,
+      "internationalCaps": 123,
+      "internationalGoals": 51,
+      "achievements": [
+        "1× FIFA World Cup (1998)",
+        "1× UEFA European Championship (2000)",
+        "1× UEFA Champions League (2009)",
+        "2× Premier League (including Invincibles 2003-04)",
+        "4× Premier League Golden Boot"
+      ],
+      "description": "Thierry Henry is widely regarded as the greatest player in Arsenal's history and one of the best strikers ever to play in the Premier League. His pace, finishing, and technical brilliance made him almost unplayable at his peak. He was a key member of Arsenal's 'Invincibles' side that went the entire 2003–04 Premier League season unbeaten."
+    },
+    {
+      "name": "George Best",
+      "fullName": "George Best",
+      "nationality": "Northern Irish",
+      "position": "Winger",
+      "birthDate": "1946-05-22",
+      "deathDate": "2005-11-25",
+      "career": "1963–1984",
+      "clubs": ["Manchester United", "various clubs"],
+      "goals": 205,
+      "internationalCaps": 37,
+      "internationalGoals": 9,
+      "achievements": [
+        "1× European Cup (1968)",
+        "2× First Division (1965, 1967)",
+        "1× Ballon d'Or (1968)"
+      ],
+      "description": "George Best was arguably the most naturally talented British footballer of all time. His dribbling, pace, and balance were extraordinary. He was also the first footballer to become a pop-culture celebrity, paving the way for the modern football superstar. Despite a career cut short by personal troubles, his genius on the pitch remains legendary."
+    },
+    {
+      "name": "Marco van Basten",
+      "fullName": "Marcel van Basten",
+      "nationality": "Dutch",
+      "position": "Striker",
+      "birthDate": "1964-10-31",
+      "career": "1981–1995",
+      "clubs": ["Ajax", "AC Milan"],
+      "goals": 277,
+      "internationalCaps": 58,
+      "internationalGoals": 24,
+      "achievements": [
+        "1× UEFA European Championship (1988)",
+        "2× European Cup (1989, 1990)",
+        "4× Serie A",
+        "3× Ballon d'Or (1988, 1989, 1992)"
+      ],
+      "description": "Marco van Basten was one of the most complete strikers in football history. His three Ballon d'Or wins underscore his extraordinary talent. His volleyed goal in the 1988 European Championship Final against the Soviet Union is considered one of the greatest goals ever scored. His career was tragically cut short by an ankle injury at age 30."
+    }
+  ],
+  "historicalTopScorers": [
+    {
+      "rank": 1,
+      "name": "Cristiano Ronaldo",
+      "goals": 900,
+      "nationality": "Portuguese",
+      "period": "2002–present"
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "goals": 850,
+      "nationality": "Argentine",
+      "period": "2003–present"
+    },
+    {
+      "rank": 3,
+      "name": "Pelé",
+      "goals": 775,
+      "nationality": "Brazilian",
+      "period": "1956–1977",
+      "note": "Official FIFA-recognized total"
+    },
+    {
+      "rank": 4,
+      "name": "Romário",
+      "goals": 772,
+      "nationality": "Brazilian",
+      "period": "1985–2007"
+    },
+    {
+      "rank": 5,
+      "name": "Eusébio",
+      "goals": 733,
+      "nationality": "Portuguese",
+      "period": "1957–1979"
+    },
+    {
+      "rank": 6,
+      "name": "Ferenc Puskás",
+      "goals": 725,
+      "nationality": "Hungarian",
+      "period": "1943–1966"
+    },
+    {
+      "rank": 7,
+      "name": "Gerd Müller",
+      "goals": 735,
+      "nationality": "German",
+      "period": "1963–1981"
+    },
+    {
+      "rank": 8,
+      "name": "Alfredo Di Stéfano",
+      "goals": 510,
+      "nationality": "Argentine",
+      "period": "1945–1966"
+    },
+    {
+      "rank": 9,
+      "name": "Robert Lewandowski",
+      "goals": 660,
+      "nationality": "Polish",
+      "period": "2005–present"
+    },
+    {
+      "rank": 10,
+      "name": "Thierry Henry",
+      "goals": 411,
+      "nationality": "French",
+      "period": "1994–2014"
+    },
+    {
+      "rank": 11,
+      "name": "Zlatan Ibrahimović",
+      "goals": 570,
+      "nationality": "Swedish",
+      "period": "1999–2023"
+    },
+    {
+      "rank": 12,
+      "name": "Neymar Jr",
+      "goals": 440,
+      "nationality": "Brazilian",
+      "period": "2009–present"
+    }
+  ],
+  "majorTournamentWinners": {
+    "fifaWorldCup": [
+      {
+        "year": 1930,
+        "host": "Uruguay",
+        "winner": "Uruguay",
+        "runnerUp": "Argentina",
+        "score": "4–2"
+      },
+      {
+        "year": 1934,
+        "host": "Italy",
+        "winner": "Italy",
+        "runnerUp": "Czechoslovakia",
+        "score": "2–1 (aet)"
+      },
+      {
+        "year": 1938,
+        "host": "France",
+        "winner": "Italy",
+        "runnerUp": "Hungary",
+        "score": "4–2"
+      },
+      {
+        "year": 1950,
+        "host": "Brazil",
+        "winner": "Uruguay",
+        "runnerUp": "Brazil",
+        "score": "Round-robin"
+      },
+      {
+        "year": 1954,
+        "host": "Switzerland",
+        "winner": "West Germany",
+        "runnerUp": "Hungary",
+        "score": "3–2"
+      },
+      {
+        "year": 1958,
+        "host": "Sweden",
+        "winner": "Brazil",
+        "runnerUp": "Sweden",
+        "score": "5–2"
+      },
+      {
+        "year": 1962,
+        "host": "Chile",
+        "winner": "Brazil",
+        "runnerUp": "Czechoslovakia",
+        "score": "3–1"
+      },
+      {
+        "year": 1966,
+        "host": "England",
+        "winner": "England",
+        "runnerUp": "West Germany",
+        "score": "4–2 (aet)"
+      },
+      {
+        "year": 1970,
+        "host": "Mexico",
+        "winner": "Brazil",
+        "runnerUp": "Italy",
+        "score": "4–1"
+      },
+      {
+        "year": 1974,
+        "host": "West Germany",
+        "winner": "West Germany",
+        "runnerUp": "Netherlands",
+        "score": "2–1"
+      },
+      {
+        "year": 1978,
+        "host": "Argentina",
+        "winner": "Argentina",
+        "runnerUp": "Netherlands",
+        "score": "3–1 (aet)"
+      },
+      {
+        "year": 1982,
+        "host": "Spain",
+        "winner": "Italy",
+        "runnerUp": "West Germany",
+        "score": "3–1"
+      },
+      {
+        "year": 1986,
+        "host": "Mexico",
+        "winner": "Argentina",
+        "runnerUp": "West Germany",
+        "score": "3–2"
+      },
+      {
+        "year": 1990,
+        "host": "Italy",
+        "winner": "West Germany",
+        "runnerUp": "Argentina",
+        "score": "1–0"
+      },
+      {
+        "year": 1994,
+        "host": "United States",
+        "winner": "Brazil",
+        "runnerUp": "Italy",
+        "score": "0–0 (3–2 pen)"
+      },
+      {
+        "year": 1998,
+        "host": "France",
+        "winner": "France",
+        "runnerUp": "Brazil",
+        "score": "3–0"
+      },
+      {
+        "year": 2002,
+        "host": "South Korea/Japan",
+        "winner": "Brazil",
+        "runnerUp": "Germany",
+        "score": "2–0"
+      },
+      {
+        "year": 2006,
+        "host": "Germany",
+        "winner": "Italy",
+        "runnerUp": "France",
+        "score": "1–1 (5–3 pen)"
+      },
+      {
+        "year": 2010,
+        "host": "South Africa",
+        "winner": "Spain",
+        "runnerUp": "Netherlands",
+        "score": "1–0 (aet)"
+      },
+      {
+        "year": 2014,
+        "host": "Brazil",
+        "winner": "Germany",
+        "runnerUp": "Argentina",
+        "score": "1–0 (aet)"
+      },
+      {
+        "year": 2018,
+        "host": "Russia",
+        "winner": "France",
+        "runnerUp": "Croatia",
+        "score": "4–2"
+      },
+      {
+        "year": 2022,
+        "host": "Qatar",
+        "winner": "Argentina",
+        "runnerUp": "France",
+        "score": "3–3 (4–2 pen)"
+      }
+    ],
+    "uefaChampionsLeague": [
+      {
+        "year": "2015–16",
+        "winner": "Real Madrid",
+        "runnerUp": "Atlético Madrid",
+        "score": "1–1 (5–3 pen)"
+      },
+      {
+        "year": "2016–17",
+        "winner": "Real Madrid",
+        "runnerUp": "Juventus",
+        "score": "4–1"
+      },
+      {
+        "year": "2017–18",
+        "winner": "Real Madrid",
+        "runnerUp": "Liverpool",
+        "score": "3–1"
+      },
+      {
+        "year": "2018–19",
+        "winner": "Liverpool",
+        "runnerUp": "Tottenham Hotspur",
+        "score": "2–0"
+      },
+      {
+        "year": "2019–20",
+        "winner": "Bayern Munich",
+        "runnerUp": "Paris Saint-Germain",
+        "score": "1–0"
+      },
+      {
+        "year": "2020–21",
+        "winner": "Chelsea",
+        "runnerUp": "Manchester City",
+        "score": "1–0"
+      },
+      {
+        "year": "2021–22",
+        "winner": "Real Madrid",
+        "runnerUp": "Liverpool",
+        "score": "1–0"
+      },
+      {
+        "year": "2022–23",
+        "winner": "Manchester City",
+        "runnerUp": "Inter Milan",
+        "score": "1–0"
+      },
+      {
+        "year": "2023–24",
+        "winner": "Real Madrid",
+        "runnerUp": "Borussia Dortmund",
+        "score": "2–0"
+      },
+      { "year": "2024–25", "winner": "TBD", "runnerUp": "TBD", "score": "TBD" }
+    ],
+    "copaAmerica": [
+      {
+        "year": 2015,
+        "winner": "Chile",
+        "runnerUp": "Argentina",
+        "host": "Chile"
+      },
+      {
+        "year": 2016,
+        "winner": "Chile",
+        "runnerUp": "Argentina",
+        "host": "United States"
+      },
+      {
+        "year": 2019,
+        "winner": "Brazil",
+        "runnerUp": "Peru",
+        "host": "Brazil"
+      },
+      {
+        "year": 2021,
+        "winner": "Argentina",
+        "runnerUp": "Brazil",
+        "host": "Brazil"
+      },
+      {
+        "year": 2024,
+        "winner": "Argentina",
+        "runnerUp": "Colombia",
+        "host": "United States"
+      }
+    ],
+    "uefaEuropeanChampionship": [
+      {
+        "year": 2004,
+        "winner": "Greece",
+        "runnerUp": "Portugal",
+        "host": "Portugal"
+      },
+      {
+        "year": 2008,
+        "winner": "Spain",
+        "runnerUp": "Germany",
+        "host": "Austria/Switzerland"
+      },
+      {
+        "year": 2012,
+        "winner": "Spain",
+        "runnerUp": "Italy",
+        "host": "Poland/Ukraine"
+      },
+      {
+        "year": 2016,
+        "winner": "Portugal",
+        "runnerUp": "France",
+        "host": "France"
+      },
+      {
+        "year": 2020,
+        "winner": "Italy",
+        "runnerUp": "England",
+        "host": "Pan-European"
+      },
+      {
+        "year": 2024,
+        "winner": "Spain",
+        "runnerUp": "England",
+        "host": "Germany"
+      }
+    ],
+    "africaCupOfNations": [
+      {
+        "year": 2015,
+        "winner": "Ivory Coast",
+        "runnerUp": "Ghana",
+        "host": "Equatorial Guinea"
+      },
+      {
+        "year": 2017,
+        "winner": "Cameroon",
+        "runnerUp": "Egypt",
+        "host": "Gabon"
+      },
+      {
+        "year": 2019,
+        "winner": "Algeria",
+        "runnerUp": "Senegal",
+        "host": "Egypt"
+      },
+      {
+        "year": 2021,
+        "winner": "Senegal",
+        "runnerUp": "Egypt",
+        "host": "Cameroon"
+      },
+      {
+        "year": 2023,
+        "winner": "Ivory Coast",
+        "runnerUp": "Nigeria",
+        "host": "Ivory Coast"
+      }
+    ]
+  },
+  "worldCupTotalWins": [
+    { "country": "Brazil", "wins": 5, "years": [1958, 1962, 1970, 1994, 2002] },
+    { "country": "Germany", "wins": 4, "years": [1954, 1974, 1990, 2014] },
+    { "country": "Italy", "wins": 4, "years": [1934, 1938, 1982, 2006] },
+    { "country": "Argentina", "wins": 3, "years": [1978, 1986, 2022] },
+    { "country": "France", "wins": 2, "years": [1998, 2018] },
+    { "country": "Uruguay", "wins": 2, "years": [1930, 1950] },
+    { "country": "England", "wins": 1, "years": [1966] },
+    { "country": "Spain", "wins": 1, "years": [2010] }
+  ]
+}

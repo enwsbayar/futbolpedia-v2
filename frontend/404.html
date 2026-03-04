@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 — Page Not Found — Futbolpedia</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>"
+    />
+  </head>
+  <body data-page="404">
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="logo">⚽ <span>Futbolpedia</span></a>
+        <div class="search-container" id="search-container">
+          <input
+            type="text"
+            id="global-search"
+            placeholder="Search teams, players…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <div class="search-dropdown" id="search-results"></div>
+        </div>
+        <nav class="header-nav" id="header-nav">
+          <a href="/">Home</a>
+        </nav>
+        <button
+          class="mobile-menu-btn"
+          id="mobile-menu-btn"
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <div class="page-wrapper">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-section">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="/">🏠 Home</a></li>
+            <li><a href="/league.html?id=4328">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League</a></li>
+            <li><a href="/league.html?id=4335">🇪🇸 La Liga</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="content" id="main-content">
+        <div class="error-page">
+          <h1>404</h1>
+          <div class="error-icon">⚽</div>
+          <h2>Page Not Found</h2>
+          <p>The page you are looking for doesn't exist, or has been moved.</p>
+          <p>Perhaps you were looking for one of these?</p>
+          <ul class="error-links">
+            <li><a href="/">Home — Search for teams and players</a></li>
+            <li><a href="/league.html?id=4328">English Premier League</a></li>
+            <li><a href="/league.html?id=4335">Spanish La Liga</a></li>
+            <li><a href="/league.html?id=4332">Italian Serie A</a></li>
+            <li><a href="/league.html?id=4331">German Bundesliga</a></li>
+          </ul>
+          <a
+            href="/"
+            class="btn btn-primary"
+            style="margin-top: 1.5rem; display: inline-block"
+            >Return to Home</a
+          >
+        </div>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>⚽ <strong>Futbolpedia</strong> — The Free Football Encyclopedia</p>
+        <p class="footer-copy">&copy; 2026 Futbolpedia.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
