@@ -5,7 +5,7 @@
 
 **Futbolpedia** is a comprehensive, Wikipedia-style football encyclopedia. It provides dynamic, real-time data about football teams, players, leagues, and the beautiful game's rich history. Built with a modern, clean interface, it offers fans a deep dive into the world of football.
 
-![Futbolpedia Screenshot](assets/screenshot.png)
+![Futbolpedia Screenshot](frontend/assets/screenshot.png)
 
 ## ✨ Features
 
@@ -35,7 +35,7 @@
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/futbolpedia.git
+    git clone https://github.com/enwsbayar/futbolpedia.git
     cd futbolpedia
     ```
 
